@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="backgroundColor-text">
+        Background Color : <span class="color" id="color-name"> White </span>
+      </h1>
+      <button class="btn btn-red" onclick="setColor(`red`)">Red</button>
+      <button class="btn btn-green" onclick="setColor(`green`)">Green</button>
+      <button class="btn btn-blue" onclick="setColor(`blue`)">Blue</button>
+      <button class="btn btn-random" onclick="randomColor()">Random</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

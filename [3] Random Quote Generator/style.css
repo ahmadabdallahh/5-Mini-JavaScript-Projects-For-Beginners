@@ -1,0 +1,63 @@
+/*  IDEA: [3] Random Quote Generator */
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 24px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+#Quote {
+  background: #f9f9f6;
+  color: #3a3a3a;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(207, 222, 243, 0.18);
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+  min-width: 320px;
+  min-height: 60px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+#Quote:empty {
+  background: transparent;
+  box-shadow: none;
+}
+
+#btn-generator {
+  background: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #355c7d;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(25, 22, 84, 0.12);
+  transition: background 2s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#btn-generator:hover,
+#btn-generator:focus {
+  background: linear-gradient(45deg, #c2e9fb 10%, #a1c4fd 100%);
+  transform: translateY(-2px) scale(1.04);
+  outline: none;
+  color: #2d3a4b;
+  box-shadow: 0 4px 16px rgba(25, 22, 84, 0.18);
+}
