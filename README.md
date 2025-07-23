@@ -31,13 +31,15 @@ A functional stopwatch with start, stop, and reset capabilities.
 
 - **Features:** Time tracking, interval management, responsive controls
 - **Skills:** Timer functions, state management, responsive design
+- **Link:** https://simple-stop-watchh.vercel.app/
 
-### 5. [Persistent ToDo List](./[5]%20Persistent%20ToDo%20Lis/)
+### 5. [Persistent ToDo List](./[5]%20Persistent%20ToDo%20List/)
 
 A todo list that saves your tasks using browser storage.
 
 - **Features:** Add/remove tasks, localStorage persistence, responsive layout
 - **Skills:** Local storage, CRUD operations, responsive design
+- **Link:** https://simple-to-do-list-ahmad.vercel.app/
 
 ## 🛠️ Technologies Used
 
@@ -88,17 +90,21 @@ All projects feature modern, responsive design principles:
 │   ├── index.html
 │   ├── style.css
 │   ├── main.js
+│   ├── quotation.ico
 │   └── README.md
 ├── [4] Simple Stop Watch/
 │   ├── index.html
 │   ├── style.css
 │   ├── main.js
+│   ├── time-tracking.ico
 │   └── README.md
-├── [5] Persistent ToDo Lis/
+├── [5] Persistent ToDo List/
 │   ├── index.html
 │   ├── style.css
 │   ├── main.js
+│   ├── to-do-list.ico
 │   └── README.md
+├── LICENSE
 └── README.md
 ```
 
